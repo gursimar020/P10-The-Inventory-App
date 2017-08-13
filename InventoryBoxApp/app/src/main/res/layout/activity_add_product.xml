@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.android.inventoryboxapp.addProduct">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/product"
+            android:text="@string/add_product_information" />
+
+        <EditText
+            android:id="@+id/nameInput"
+            style="@style/product_info"
+            android:hint="@string/product_name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/priceInput"
+            style="@style/product_info"
+            android:hint="@string/product_price"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/quantityInput"
+            style="@style/product_info"
+            android:hint="@string/product_quantity"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/imageUrlInput"
+            style="@style/product_info"
+            android:hint="@string/image_url"
+            android:inputType="text" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="I Agree Terms and Condition" />
+
+        <Button
+            android:id="@+id/saveButton"
+            style="@style/button"
+            android:text="@string/add_product" />
+    </LinearLayout>
+</ScrollView>

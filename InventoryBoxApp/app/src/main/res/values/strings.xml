@@ -1,0 +1,16 @@
+<resources>
+    <string name="APP_NAME">Inventory Box </string>
+    <string name="add_product_information">Product Information</string>
+    <string name="inventory_contains">Inventory Contains</string>
+    <string name="activity_add_product">Add Product</string>
+    <string name="activity_product_detail">Product Detail</string>
+    <string name="button_order_more">Order more</string>
+    <string name="button_delete_product">Delete Product</string>
+    <string name="product_name">Name</string>
+    <string name="product_price">Price</string>
+    <string name="product_quantity">Quantity</string>
+    <string name="image_url">Image URL</string>
+    <string name="add_product">ADD</string>
+    <string name="add_item">ADD Item</string>
+    <string name="empty">DataBase Is Empty.You Simply Add Product To Inventory By Clicking On Add Item Button Given Below</string>
+</resources>
